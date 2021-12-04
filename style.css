@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+nav{
+	position: fixed;
+	width: 100%;
+	background: darkred;
+	font-family: 'Montserrat', sans-serif;
+	padding: 15px 0px;
+	z-index: 1;
+}
+
+section {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 20% 1fr;
+    gap: 10px;
+                           
+  }
+
+footer{
+    text-align: center;
+	font-family: montserrat, sans-serif;
+	background-color: black;
+	opacity: 85%;
+	height: 10em;
+	padding-top: 5%;
+  }
+figure{
+	width: 100%;
+	margin-left: 10rem;
+}
+
+
+h1{
+    padding-top: 100px;
+	margin-bottom: 20px;  
+    text-align: center;
+	font-family: 'Basketball', sans-serif;
+	font-size: 5em;
+    color: darkred;
+  }
+
+h2{
+ 	text-align: center;
+	margin-left: 200px;
+	color: darkred;
+	font-family: 'Montserrat', sans-serif; 
+	margin-bottom: 10px;
+  }
+
+p{
+    font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+    margin: 0 1rem 1rem 11rem;
+}
+
+
+ul{
+	margin-left: 10rem;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+li a{
+	display: block;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	margin-left: 30px;
+	transition: all 0.3s linear;
+}
+
+li a:hover{
+	color: black;
+}
+
+footer a{
+	color: white;
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+@media (max-width: 650px) {
+Section {
+	  display: block;
+	  font-size: 80%;
+	}
+p{
+	  position: relative;
+	  margin: -4rem -2rem 2rem 4rem; 
+	  padding: 1rem;
+	  background: white;
+	  opacity: 0.8;
+	}
+ul{
+	margin-left: 0;
+	}
+figure{
+		margin-left: 2rem;		
+	}
+h2{
+	margin-left: 0;
+	}
+
+}
